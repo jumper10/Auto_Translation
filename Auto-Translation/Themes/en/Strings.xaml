@@ -1,0 +1,6 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:Sys="clr-namespace:System;assembly=mscorlib">
+    <Sys:String x:Key="App_Tile">Auto Translation</Sys:String>
+    
+</ResourceDictionary>
