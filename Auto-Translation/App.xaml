@@ -2,13 +2,15 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:Auto_Translation" 
-             StartupUri="MainWindow.xaml">
+            >
     <Application.Resources>
        
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary x:Name="xx" Source=".\Themes\Generic.xaml"/>
-                <ResourceDictionary Source=".\Themes\zh-cn\Strings.xaml"/>
+                <ResourceDictionary>
+                    <local:AppBootstrapper x:Key="bootStrapper"/>
+                </ResourceDictionary>
+                <ResourceDictionary x:Name="xx" Source=".\Themes\Generic.xaml"/>                
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>
