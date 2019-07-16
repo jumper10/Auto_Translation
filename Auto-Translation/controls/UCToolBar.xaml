@@ -8,11 +8,11 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <ToolBar>
-        <Button Content="{DynamicResource ToolBar_Open}" cal:Message.Attach="ChangeTheme" 
+        <Button Content="{DynamicResource ToolBar_Open}" cal:Message.Attach="SelectFiles" 
                 HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
 
-        <Button Content="{DynamicResource ToolBar_Lang}" cal:Message.Attach="ChangeTheme" 
-                HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="{DynamicResource ToolBar_Lang}" cal:Message.Attach="ChangeLang($source)" 
+                HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Tag="en,zh-cn" Click="Button_Click"/>
 
 
     </ToolBar>

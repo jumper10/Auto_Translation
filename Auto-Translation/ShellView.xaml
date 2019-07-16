@@ -1,4 +1,4 @@
-﻿<Window x:Class="Auto_Translation.ShellView"
+﻿<UserControl x:Class="Auto_Translation.ShellView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -6,8 +6,8 @@
         xmlns:local="clr-namespace:Auto_Translation"
          xmlns:cal="http://www.caliburnproject.org"
         xmlns:controls="clr-namespace:Auto_Translation.controls"
-        mc:Ignorable="d" Title="{DynamicResource App_Tile}"
-        Height="450" Width="800">
+        mc:Ignorable="d" 
+        d:DesignWidth="500" d:DesignHeight="400">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="30"/>
@@ -18,4 +18,4 @@
         <controls:UCCurentState Grid.Row="1"/>
         <controls:UCDataView Grid.Row="2"/>
     </Grid>
-</Window>
+</UserControl>

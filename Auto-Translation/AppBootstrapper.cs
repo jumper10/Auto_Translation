@@ -1,8 +1,9 @@
 
-    using System;
-    using System.Collections.Generic;
-    using Auto_Translation.vms;
-    using Caliburn.Micro;
+using Auto_Translation.commons;
+using Caliburn.Micro;
+using System;
+using System.Collections.Generic;
+using System.Windows;
 
 namespace Auto_Translation
 {
@@ -13,7 +14,11 @@ namespace Auto_Translation
         public AppBootstrapper()
         {
             Initialize();
+
+            
         }
+
+        
 
         protected override void Configure()
         {

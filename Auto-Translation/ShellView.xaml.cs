@@ -18,11 +18,13 @@ namespace Auto_Translation
     /// <summary>
     /// MainWindow.xaml 的交互逻辑
     /// </summary>
-    public partial class ShellView : Window,IShell
+    public partial class ShellView : UserControl
     {
         public ShellView()
         {
             InitializeComponent();
+
+
         }
     }
 }

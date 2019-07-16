@@ -72,8 +72,9 @@
     <Compile Include="commons\IFileLoader.cs" />
     <Compile Include="commons\IFileUpdater.cs" />
     <Compile Include="commons\ITranslater.cs" />
+    <Compile Include="commons\ThemeUtils.cs" />
     <Compile Include="IShell.cs" />
-    <Compile Include="vms\ShellViewModel.cs" />
+    <Compile Include="ShellViewModel.cs" />
     <Page Include="controls\UCCurentState.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -121,6 +122,14 @@
     <Page Include="Themes\Generic.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\style.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\window.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Themes\zh-cn\Strings.xaml">
       <Generator>MSBuild:Compile</Generator>

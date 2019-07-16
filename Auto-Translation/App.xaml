@@ -7,10 +7,11 @@
        
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary x:Name="lang" Source=".\Themes\zh-cn\Strings.xaml"/>
                 <ResourceDictionary>
                     <local:AppBootstrapper x:Key="bootStrapper"/>
                 </ResourceDictionary>
-                <ResourceDictionary x:Name="xx" Source=".\Themes\Generic.xaml"/>                
+                <ResourceDictionary x:Name="xx" Source=".\Themes\style.xaml"/>                
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>
